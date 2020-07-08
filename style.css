@@ -4,6 +4,10 @@ body{
 .container{
     margin-bottom: 100px;
 }
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
 
 /* navbar */
 
@@ -48,6 +52,7 @@ header{
     
 }
 .feature-box:hover{
+    background-color: #fff;
     box-shadow: 10px 10px 10px lightgray;
 }
 
