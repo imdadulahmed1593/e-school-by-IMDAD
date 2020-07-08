@@ -5,39 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-School</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1f2fb57c0d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <!-- header section -->
+<!-- header section -->
 
     <header class="title container-fluid">
-        <nav class=" container navbar navbar-expand-lg navbar-light bg-light">
+        <nav class=" container navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#">
                 <img class="" src="images/ICON/Logo.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item px-4 active">
-                        <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#books">Books <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item px-4">
                         <a class="nav-link" href="#courses">Courses</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" href="#others">Others</a>
+                        <a class="nav-link" href="#testimonial">Others</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#press">Blog</a>
                     </li>
                     <li>
                         <button class="btn btn-success px-5 m-auto rounded-pill" type="submit">SignUp</button>
@@ -64,7 +67,7 @@
 
     <!-- features section -->
 
-    <section class="container features">
+    <section class="container features" id="books">
         <div class="row">
             <div class="col-md-3 ">
 
@@ -87,11 +90,7 @@
                         <img src="images/ICON/Student.png" alt="">
                         <h3 class="text-center">1800+ Students</h3>
                         <p class="text-center">Learn Anything</p>
-
                     </div>
-
-
-
                 </div>
             </div>
             <div class="col-md-3">
@@ -118,42 +117,42 @@
 
     <!-- pricing section -->
 
-    <section class="container pricing">
+    <section class="container pricing" id="courses">
         <h2 class="text-center pb-5">Online Courses</h2>
         <div class="card-deck">
-            <div class="card">
+            <div class="card border-0">
                 <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Modern Psychology</h5>
                     <p class="card-text">Designation</p>
                     <button class="btn btn-success px-4 py-2 rounded-pill">Buy Course</button>
                 </div>
-                <div class="card-footer d-flex justify-content-between">
+                <div class="card-footer border-0 d-flex justify-content-between">
                     <p class="text-muted"><i class="fas fa-calendar-minus"></i> Starts 20 April, 2021</p>
                     <p class="text-muted"><i class="fas fa-user-friends"></i> 60 Seats</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card border-0">
                 <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-body ">
                     <h5 class="card-title">Modern Psychology</h5>
                     <p class="card-text">Designation
                     </p>
                     <button class="btn btn-success px-4 py-2 rounded-pill">Buy Course</button>
                 </div>
-                <div class="card-footer d-flex justify-content-between">
+                <div class="card-footer border-0 d-flex justify-content-between">
                     <p class="text-muted"><i class="fas fa-calendar-minus"></i> Starts 20 April, 2021</p>
                     <p class="text-muted"><i class="fas fa-user-friends"></i> 60 Seats</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card border-0">
                 <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Modern Psychology</h5>
                     <p class="card-text">Designation</p>
                     <button class="btn btn-success px-4 py-2 rounded-pill">Buy Course</button>
                 </div>
-                <div class="card-footer d-flex justify-content-between">
+                <div class="card-footer border-0 d-flex justify-content-between">
                     <p class="text-muted"><i class="fas fa-calendar-minus"></i> Starts 20 April, 2021</p>
                     <p class="text-muted"><i class="fas fa-user-friends"></i> 60 Seats</p>
                 </div>
@@ -174,16 +173,28 @@
         </div>
     </section>
 
+    <!-- partners section -->
+
+    <section id="press">
+        <h2>Our Partners</h2>
+        <div id="press">
+            <img class="press-logo" src="images/press/TechCrunch.png" alt="tc-logo">
+            <img class="press-logo" src="images/press/tnw.png" alt="tnw-logo">
+            <img class="press-logo" src="images/press/bizinsider.png" alt="biz-insider-logo">
+            <img class="press-logo" src="images/press/mashable.png" alt="mashable-logo">
+        </div>
+    </section>
+
     <!-- footer section -->
 
     <footer class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3 col-6">
                     <p>Millions of people of all ages and and from around the world are improving their lives with us.
                     </p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-6">
                     <ul>
                         <li><strong>Course</strong></li>
                         <li>Graphic Design</li>
@@ -193,7 +204,7 @@
                         <li>Business</li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-6">
                     <ul>
                         <li><strong>Terms</strong></li>
                         <li>Graphic Design</li>
@@ -203,7 +214,7 @@
                         <li>Business</li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-6">
                     <ul>
                         <li><strong>Useful Links</strong></li>
                         <li>Graphic Design</li>
