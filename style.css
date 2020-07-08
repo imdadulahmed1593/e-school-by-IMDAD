@@ -1,126 +1,171 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+
 }
-.container{
+
+.container {
     margin-bottom: 100px;
+
 }
-h2{
+
+h2 {
     font-weight: 700;
     font-size: 3rem;
 }
 
 /* navbar */
 
-.navbar-brand{
-    width:50%;
+.navbar-brand {
+    width: 50%;
 }
-.btn:hover{
-    color:#218838;
+
+.btn:hover {
+    color: #218838;
     background-color: #fff;
 }
-nav img{
-    width:40%;
+
+nav img {
+    width: 40%;
 }
 
 /* header section */
 
-header{
+header {
     background-color: #F0FFF0;
 }
-.header h1{
-    width:80%;
-    font-size:4rem;
+
+.header h1 {
+    width: 80%;
+    font-size: 4rem;
     font-weight: 700;
 }
-.header h3{
-    color:#FD511A;
-     
+
+.header h3 {
+    color: #FD511A;
+
 }
 
 /* features section */
 
-.features img{
-    width:20%;
-    margin:0 40% 10% 40%;
+.features img {
+    width: 20%;
+    margin: 0 40% 10% 40%;
 
 }
-.feature-box{
+
+.feature-box {
     border-radius: 10px;
     background-color: #F0FFF0;
     margin: 10px;
-    height:200px;
-    
+    height: 200px;
+
 }
-.feature-box:hover{
+
+.feature-box:hover {
     background-color: #fff;
     box-shadow: 10px 10px 10px lightgray;
 }
 
 /* courses section */
 
-.card{
+.card {
     box-shadow: 5px 5px 10px lightgray;
 }
-.card img{
-    width:90%;
+
+.card img {
+    width: 90%;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
 }
 
 /* testimonial section */
 
-#testimonial{
-    width:60%;
+#testimonial {
+    width: 60%;
 }
-#testimonial h2{
+
+#testimonial h2 {
     margin: 20px 0px;
     padding: 20px 0px;
 }
-#testimonial img{
-    width:25% !important;
-    margin:0px 20px;
+
+#testimonial img {
+    width: 25% !important;
+    margin: 0px 20px;
 }
 
 /* press section */
 
-#press{
-    padding-top: 50px ;
-    background-color:  #F0FFF0;
+#press {
+    padding-top: 50px;
+    background-color: #F0FFF0;
     padding-bottom: 3%;
     text-align: center;
+    height: 400px;
 }
-.press-logo{
-  width: 15%;
-  margin: 20px;
+
+.press-logo {
+    width: 15%;
+    margin: 20px;
 }
 
 /* footer section */
 
-footer{
+footer {
     background-color: #222222;
-    color:#fff;
-    padding:50px 0px 10px 0px;
-}
-footer ul{
-    list-style:none;
-}
-footer p{
-    text-align:center;
+    color: #fff;
+    padding: 50px 0px 10px 0px;
 }
 
-@media (max-width:768px){
-    #testimonial{
-        width:100%;
-    } 
+footer ul {
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: lightsteelblue;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    nav img {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    #testimonial {
+        width: 100%;
+    }
+
     .card-body {
         text-align: center;
     }
-    .header{
-        text-align:center;
+
+    .header {
+        text-align: center;
     }
-    .header h1{
-        width:100%;
+
+    .header h1 {
+        width: 100%;
     }
-    
-   
+
+    #press {
+        height: 300px;
+    }
+
+    .features img {
+        width: 15%;
+        margin: 0 40% 5% 40%;
+
+    }
+
+
 }
